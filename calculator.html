@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>
+      Calculator
+    </title>
+    <link rel="stylesheet" href="calculator.css">
+    <script type="text/javascript" src="calculator.js">
+    </script>  
+  </head>
+  <body>
+
+    <div class="div1">
+      <div>
+      <div class="result" id="content">0</div>
+      <div class="operator" id="oper"></div>
+    </div>
+     <div class="div2">
+    
+    
+      <div>
+        <button>MC</button>
+        <button>M+</button>
+        <button>M-</button>       
+        <button>MR</button>
+      </div>
+      <div>
+        <button onclick="clickC()">C</button>
+        <button onclick="sign()">&plusmn</button>
+        <button onclick="divide()">&divide</button>     
+        <button onclick="multiply()">&times</button>
+      </div>
+      <div>
+        <button onclick="click7()">7</button>
+        <button onclick="click8()">8</button>
+        <button onclick="click9()">9</button>       
+        <button onclick="minus()">-</button>
+      </div>
+      <div>
+        <button onclick="click4()">4</button>
+        <button onclick="click5()">5</button>
+        <button onclick="click6()">6</button>       
+        <button onclick="add()">+</button>
+      </div>
+      <div class="inline">
+        <button onclick="click1()">1</button>
+        <button onclick="click2()">2</button>
+        <button onclick="click3()">3</button>       
+      </div>
+       <div class="inline">
+         <button class="equal" onclick="equal()">=</button>   
+      </div>
+      <div>
+        <button class="zero" onclick="click0()">0</button>
+        <button onclick="clickPoint()">.</button>
+        
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

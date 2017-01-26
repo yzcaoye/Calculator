@@ -1,0 +1,93 @@
+.result{
+  border-width:3px;
+  border-radius: 8px;
+  width:248px;
+  margin-top: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 0px;
+  padding: 5px;
+  height: 70px;
+  line-height:70px;
+  vertical-align: up;
+  text-align: right;
+  background-color:#f7f5e1;
+}
+
+.operator{
+  border:0px;
+  width:240px;
+  margin-bottom: 0px;
+  padding: 0px;
+  top: -20px;
+  left:10px;
+  height:18px;
+  position: relative;
+  text-align:right;
+  background-color:#f7f5e1;
+}
+
+button{
+  width: 60px;
+  height: 30px;
+  border-radius: 8px;
+  margin-left: 1px;
+  margin-right: 0px;
+  margin-top:3px;
+  margin-bottom:3px;
+  padding-left:2px;
+  background-color:#e3e8ef;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 4px 4px 0 rgba(0,0,0,0.19);
+  font-size:14px;
+  font-family:sans-serif;
+  background: #e3e8ef; 
+  
+  
+}
+
+button:hover{
+  background-color:#b8bbc1;
+}
+
+button:active{
+  background-color:#777776;
+}
+
+.div1{
+  background-color: #bbc0c9;
+  margin:4px 4px 4px 4px;
+  align:center;
+  width: 268px;
+ 
+  padding-top:4px;
+  padding-bottom:4px;
+  padding-left:4px;
+  padding-right:4px;
+  background: #7c7b7c; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#c5c4c6, #b3b3b5,  #7c7b7c); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#c5c4c6, #b3b3b5,  #7c7b7c); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#c5c4c6, #b3b3b5,  #7c7b7c); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#c5c4c6, #b3b3b5,  #7c7b7c); /* Standard syntax */
+}
+
+.div2{
+   margin-top: 0px;
+   margin-right: 4px;
+   margin-left: 4px;
+   margin-bottom: 4px;
+  align:center;
+}
+
+.zero{
+  width:124px;
+}
+
+.inline{
+  display:inline;
+}
+
+.equal{
+  height: 67px;
+  float:right;
+  margin-right:4px;
+}
